@@ -48,3 +48,4 @@ install: $(DMG_NAME) ## Mount disk image
 
 clean: ## Remove all artifacts
 	-rm -rf $(APP_DIR)
+	-rm -rf $(APP_BINARY)
